@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+
+}
+
+body{
+    font-family: "Work Sans", sans-serif;
+    font-weight: 400;
+    background-color: #EFD9D1;
+    color: #000000;
+    padding: 50px 30px 50px 30px;
+
+}
+
+#gif{
+    width: 150px;
+}
+
+a{
+    text-decoration: none;
+    display: inline;
+
+}
+
+nav a{
+    /* border: 5px solid #DAA38F; */
+    /* background-color: #DAA38F; */
+    color: #000000;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 10px 130px;
+    /* padding-bottom: 50px; */
+    
+    
+
+} 
+
+h1{
+    text-align: center;
+    padding-bottom: 20px;
+    font-weight: 400;
+}
+
+h2{
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.img{
+    display: inline;
+    
+}
+
+section{
+    padding-bottom: 20px;
+}
+
