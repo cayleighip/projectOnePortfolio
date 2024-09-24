@@ -1,5 +1,6 @@
 *{
     margin: 0;
+    
 
 }
 
@@ -8,7 +9,7 @@ body{
     font-weight: 400;
     background-color: #EFD9D1;
     color: #000000;
-    padding: 50px 30px 50px 30px;
+    padding: 50px 30px;
 
 }
 
@@ -19,40 +20,71 @@ body{
 a{
     text-decoration: none;
     display: inline;
+    
 
 }
 
-nav a{
-    /* border: 5px solid #DAA38F; */
-    /* background-color: #DAA38F; */
+a:hover{
+    color: #ffffff;
+
+}
+#container{
+    /* display: flex;
+    align-items: flex-start;
+    width: 100%;
+    padding: 30px 0px; */
+}
+
+
+#bio{
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding: 5px;
+    column-gap: 50px;
+
+    
+}
+
+nav {
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 450px; 
+    
+}
+
+nav a {
     color: #000000;
     font-size: 20px;
     font-weight: 400;
     text-transform: uppercase;
-    padding: 10px 130px;
-    /* padding-bottom: 50px; */
-    
-    
-
-} 
+    padding-top: 100px;
+}
 
 h1{
     text-align: center;
-    padding-bottom: 20px;
-    font-weight: 400;
+    font-weight: 500;
+    font-size: 50px;
+    border: 20px solid #DDB7AB;
+    background-color: #DDB7AB;
 }
 
 h2{
     padding-bottom: 20px;
     padding-top: 20px;
+    font-weight: 450;
 }
 
-.img{
-    display: inline;
+#portrait{
+    width:max-content;
+    height: max-content;
     
 }
 
 section{
     padding-bottom: 20px;
 }
+
+
 
