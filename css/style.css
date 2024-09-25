@@ -15,11 +15,14 @@ body{
 
 #gif{
     width: 150px;
+    margin-left: 1200px;
+    padding-bottom: 20px;
 }
 
 a{
     text-decoration: none;
     display: inline;
+    
     
 
 }
@@ -28,12 +31,12 @@ a:hover{
     color: #ffffff;
 
 }
-#container{
+/* #container{
     /* display: flex;
     align-items: flex-start;
     width: 100%;
-    padding: 30px 0px; */
-}
+    padding: 30px 0px; 
+} */
 
 
 #bio{
@@ -47,10 +50,12 @@ a:hover{
 }
 
 nav {
-    display: flex; 
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 450px; 
+    display: flex;
+    justify-content: center; 
+    gap: 400px; 
+    padding: 50px 50px;
+    
+    
     
 }
 
@@ -59,15 +64,19 @@ nav a {
     font-size: 20px;
     font-weight: 400;
     text-transform: uppercase;
-    padding-top: 100px;
+    border: 5px solid #999B84;
+    background-color: #999B84;
+    border-radius: 10px;
 }
 
 h1{
     text-align: center;
     font-weight: 500;
     font-size: 50px;
-    border: 20px solid #DDB7AB;
+    border: 10px solid #DDB7AB;
     background-color: #DDB7AB;
+    border-radius: 10px;
+    
 }
 
 h2{
@@ -86,5 +95,18 @@ section{
     padding-bottom: 20px;
 }
 
+.inspoimg{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    
+}
 
+article{
+    margin-bottom: 20px;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
 
